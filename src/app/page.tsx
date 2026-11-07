@@ -77,6 +77,23 @@ export default function Page() {
         </p>
       </section>
 
+      <section className="mt-14" aria-labelledby="about-code-heading">
+        <h2 id="about-code-heading" className="font-display text-3xl tracking-tight">
+          About the code
+        </h2>
+        <p className="mt-5 text-sm leading-6 text-muted-foreground">
+          Drift is an independent open-source project. Visitors can read the source on GitHub.{" "}
+          <External href="https://github.com/07rjain/dr3-vs-dr4">View the source on GitHub</External>
+          .
+        </p>
+        <p className="mt-3 text-sm leading-6 text-muted-foreground">
+          The browser only talks to this site. The server looks up one host on Ahrefs&apos; Domain
+          Rating API for the current model (DR3) and the preview model (DR4). There are no user
+          accounts and no database. Lookups are rate limited, and successful ones may be cached
+          briefly on the server.
+        </p>
+      </section>
+
       <footer className="mt-14 border-t border-border pt-6 text-sm leading-6 text-muted-foreground">
         <p>
           Scores from Ahrefs&apos; Domain Rating API.{" "}
